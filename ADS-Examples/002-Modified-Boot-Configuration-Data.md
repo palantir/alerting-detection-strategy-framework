@@ -84,7 +84,7 @@ BCDEDIT /set nointegritychecks ON
 # Response
 In the event that this alert fires, the following response procedures are recommended:
 * Identify the BCD properties that were modified.
-* If only Test Signing were modified, it is likely the user enrolled in WIP.
+* If only Flight Signing were modified, it is likely the user enrolled in WIP.
   * Check the current build of their machine and compare against public WIP builds.
   * If this is a true positive, work with the user to roll back to a stable build.
 * If integrity checks or test signing are modified, treat as a high priority alert.
