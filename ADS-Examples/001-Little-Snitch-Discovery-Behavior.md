@@ -24,7 +24,7 @@ A new process is observed attempting to communicate on the network.
 A process is communicating with a new IP address or port which differs from a ruleset.
 The following prompt demonstrates the expected behavior of Little Snitch:
 
-Due to the intrusive nature of Little Snitch popups, [several MacOS implants](https://blog.malwarebytes.com/cybercrime/2016/07/new-mac-backdoor-malware-eleanor/) will perform explicit checks for processes, kexts, and other components. This usually manifests through explicit calls to the process (ps) or directory (dir) commands with sub-filtering for Little Snitch.
+Due to the intrusive nature of Little Snitch popups, [several MacOS implants](https://blog.malwarebytes.com/cybercrime/2016/07/new-mac-backdoor-malware-eleanor/) will perform explicit checks for processes, kexts, and other components. This usually manifests through explicit calls to the process (ps) or directory (ls) commands with sub-filtering for Little Snitch.
 
 For instance, an implant could look for the following components: 
 
@@ -117,5 +117,5 @@ In the event that this alert fires, the following response procedures are recomm
 * If the process behavior seems unusual, or if Little Snitch is not installed, escalate to a security incident. 
 
 # Additional Resources
-* [Elanor Mac Malware (Representative Sample)](https://blog.malwarebytes.com/cybercrime/2016/07/new-mac-backdoor-malware-eleanor/)
+* [Eleanor Mac Malware (Representative Sample)](https://blog.malwarebytes.com/cybercrime/2016/07/new-mac-backdoor-malware-eleanor/)
 
